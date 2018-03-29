@@ -159,7 +159,7 @@ body{
     text-align: center;
     border: solid 16px #FFFFFF;
 }
-.w3ls-text h2{
+.w3ls-text h3{
     margin: 0;
     font-size: 5em;
     font-family: 'Josefin Sans', sans-serif;
@@ -201,7 +201,7 @@ body{
 }
 /*-- //w3layouts-banner-info --*/
 /*-- introduction --*/
-.introduction,.about,.gallery,.team-dot,.news,.contact{
+.introduction,.about,.gallery,.news,.contact{
 	padding:4em 0;
 }
 .w3l-heading h3{
@@ -220,7 +220,7 @@ body{
     margin: 3em auto 0;
     height: 2px;
 }
-.introduction-info,.agileits-about-grids,.agileits-team-grids,.wthree-news-grids {
+.introduction-info,.agileits-about-grids,.wthree-news-grids {
     margin: 4em 0 0 0;
 }
 .introduction-info p{
@@ -388,118 +388,7 @@ body{
     color: #8e3cfe;
 }
 /*-- //gallery --*/
-/*-- team --*/
-.team{
-	background: url(../images/bg.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-.team-dot {
-    background: url(../images/dott.png)repeat 0px 0px;
-    background-size: 2px;
-    -webkit-background-size: 2px;
-    -moz-background-size: 2px;
-    -o-background-size: 2px;
-    -ms-background-size: 2px;
-}
-.team-info{
-    position: relative;
-    overflow: hidden;	
-}
-.team-info img{
-    width: 100%;
-    border: solid 2px #ffffff;
-}
-.team-caption h4{
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-weight: 600;
-    margin: 4.5em 0 0 0;
-}
-.team-caption p{
-    color: #e1e1e1;
-    font-size: .9em;
-    margin: 0;
-}
-.team-caption ul{
-    padding: 0;
-    margin: 1em 0 0 0;
-}
-.team-caption ul li{
-    display: inline-block;
-}
-.team-caption ul li a {
-	color: #333;
-    text-align: center;
-}
-.team-caption ul li a i.fa.fa-facebook{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border: solid 2px #FFF;
-    background: none;
-    color: #FFF;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.team-caption ul li a i.fa.fa-facebook:hover {
-    background: #3b5998;
-}
-.team-caption ul li a i.fa.fa-twitter{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border: solid 2px #FFF;
-    background: none;
-    color: #FFF;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.team-caption ul li a i.fa.fa-twitter:hover{
-	background: #55acee;
-}
-.team-caption ul li a i.fa.fa-rss{
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border: solid 2px #FFF;
-    background: none;
-    color: #FFF;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.team-caption ul li a i.fa.fa-rss:hover{
-	background: #f26522;
-}
-.team-caption {
-    background: #8e3cfe;
-    padding: 1em;
-    position: absolute;
-    left: 0;
-    border: solid 2px #ffffff;
-    bottom: -105%;
-    text-align: center;
-    width: 100%;
-    height: 381px;
-    -webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-}
-.team-info:hover .team-caption{
-    bottom: 0%;
-}
-.team-info:hover .team-caption {
-    bottom: 0%;
-}
-/*-- //team --*/
+
 /*-- news --*/
 .wthree-news-grids{
 	width:80%;
@@ -826,12 +715,12 @@ footer p a:hover{
 	.w3ls-text {
 		width: 35%;
 	}
-	.team-caption {
+	/*team-caption {
 		height: 306px;
 	}
 	.team-caption h4 {
 		margin: 3.5em 0 0 0;
-	}
+	}*/
 	.address-info {
 		width: 60%;
 	}
@@ -869,7 +758,7 @@ footer p a:hover{
 	.about-grid:nth-child(2){
 		margin:2em 0 0 0;
 	}
-	.agileits-team-grid {
+	/*gileits-team-grid {
 		float: left;
 		width: 50%;
 		margin:0 0 2em 0;
@@ -882,7 +771,7 @@ footer p a:hover{
 	}
 	.team-caption h4 {
 		margin: 6.5em 0 0 0;
-	}
+	}*/
 	div#design {
 		min-height: 900px;
 	}
@@ -929,9 +818,9 @@ footer p a:hover{
 		float: left;
 		width: 50%;
 	}
-	.team-caption {
+	/*am-caption {
 		height: 470px;
-	}
+	}*/
 	.wthree-news-left{
 		width:15%;
 	}
@@ -942,14 +831,14 @@ footer p a:hover{
 		min-height: 940px;
 	}
 }
-@media(max-width:667px){
+/*media(max-width:667px){
 	.team-caption {
 		height: 419px;
 	}
 	.team-caption h4 {
 		margin: 5.5em 0 0 0;
 	}
-}
+}*/
 @media(max-width:600px){
 	.w3ls-text {
 		width: 55%;
@@ -957,9 +846,9 @@ footer p a:hover{
 	.nav-tabs > li {
 		margin: 0 0px;
 	}
-	.team-caption {
+	/*eam-caption {
 		height: 368px;
-	}
+	}*/
 	.address-icon {
 		width: 11%;
 	}
@@ -968,12 +857,12 @@ footer p a:hover{
 	}
 }
 @media(max-width:568px){
-	.team-caption {
+	/*team-caption {
 		height: 344px;
 	}
 	.team-caption h4 {
 		margin: 4.5em 0 0 0;
-	}
+	}*/
 	div#design {
 		min-height: 1073px;
 	}
@@ -995,12 +884,12 @@ footer p a:hover{
 		margin-right: 0px;
 		padding: .5em .5em;
 	}
-	.team-caption {
+	/*.team-caption {
 		height: 278px;
 	}
 	.team-caption h4 {
 		margin: 2.5em 0 0 0;
-	}
+	}*/
 	div#design {
 		min-height: 1167px;
 	}
@@ -1047,13 +936,13 @@ footer p a:hover{
 	.w3layouts-banner-info {
 		padding: 1em 0 1em 0;
 	}
-	.introduction, .about, .gallery, .team-dot, .news, .contact {
+	.introduction, .about, .gallery, .news, .contact {
 		padding: 2em 0;
 	}
 	.w3ls-border {
 		margin: 1em auto 0;
 	}
-	.introduction-info, .agileits-about-grids, .agileits-team-grids, .wthree-news-grids {
+	.introduction-info, .agileits-about-grids, .wthree-news-grids {
 		margin: 1em 0 0 0;
 	}
 	.about-grid-left span {
@@ -1065,12 +954,12 @@ footer p a:hover{
 	.nav-tabs > li > a {
 		font-size: .8em;
 	}
-	.team-caption h4 {
+	/*.team-caption h4 {
 		font-size: 1.2em;
 	}
 	.team-caption {
 		height: 229px;
-	}
+	}*/
 	.wthree-news-grids {
 		margin: 1em auto 0;
 	}
@@ -1091,12 +980,12 @@ footer p a:hover{
 	}
 }
 @media(max-width:384px){
-	.team-caption h4 {
+	/*.team-caption h4 {
 		font-size: 1em;
 	}
 	.team-caption {
 		height: 206px;
-	}
+	}*/
 	.wthree-news-grids {
 		width: 100%;
 	}
@@ -1117,9 +1006,9 @@ footer p a:hover{
 	.navbar-header {
 		margin: 0 0 1em 0;
 	}
-	.team-caption {
+	/*.team-caption {
 		height: 199px;
-	}
+	}*/
 	div#design {
 		min-height: 1210px;
 	}
@@ -1154,7 +1043,7 @@ footer p a:hover{
 		text-align: center;
 		width: 100%;
 	}
-	.agileits-team-grid {
+	/*.agileits-team-grid {
 		float: none;
 		width: 100%;
 		margin: 0 0 1em 0;
@@ -1165,7 +1054,7 @@ footer p a:hover{
 	.team-caption h4 {
 		font-size: 1.5em;
 		margin: 4.5em 0 0 0;
-	}
+	}*/
 	div#design {
 		min-height: 1365px;
 	}
