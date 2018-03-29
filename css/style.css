@@ -540,7 +540,7 @@ div#design {
 	margin:1em 0;
 }
 .contact-form-right{
-    padding: 4em 13em 4em 4em;
+    padding : 4em 2em 3em 3em;
     background: #e4e4e4;
 }
 .contact-form-grid{
@@ -701,7 +701,7 @@ footer p a:hover{
 		padding: 4em 0em 4em 9em;
 	}
 	.contact-form-right {
-		padding: 4em 9em 4em 4em;
+		padding : 4em 2em 3em 3em;
 	}
 }
 @media(max-width:1280px){
@@ -709,7 +709,7 @@ footer p a:hover{
 		padding: 4em 0em 4em 6em;
 	}
 	.contact-form-right {
-		padding: 4em 6em 4em 4em;
+	 padding : 4em 2em 3em 3em;
 	}
 }
 @media(max-width:1080px){
@@ -971,7 +971,7 @@ footer p a:hover{
     padding : 4em 2em 2em 2em;
 	}
 	.contact-form-right {
-
+padding : 4em 2em 3em 3em;
 	}
 	.modal-header h4 {
 		font-size: 1.2em;
