@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -73,7 +73,7 @@ body{
 .agileinfo-social-grids ul li a {
 	color: #FFFFFF;
     text-align: center;
-	
+
 }
 .agileinfo-social-grids ul li a i.fa.fa-facebook,.agileinfo-social-grids ul li a i.fa.fa-twitter,.agileinfo-social-grids ul li a i.fa.fa-rss,.agileinfo-social-grids ul li a i.fa.fa-vk{
     transition: 0.5s all;
@@ -547,7 +547,7 @@ div#design {
 }
 .styled-input.agile-styled-input-top {
     margin-top: 0;
-} 
+}
 .contact-form-right input[type="text"],.contact-form-right input[type="email"],.contact-form-right textarea{
     font-size: .9em;
     color: #8c8c8c;
@@ -559,17 +559,17 @@ div#design {
     -webkit-appearance: none;
 	outline: none;
 }
-.contact-form-right textarea { 
+.contact-form-right textarea {
 	min-height: 150px;
     resize: none;
-} 
+}
 /*-- input-effect --*/
 .styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{
     font-size: .9em;
     color: #333333;
     top: -1.3em;
     -webkit-transition: all 0.125s;
-	-moz-transition: all 0.125s; 
+	-moz-transition: all 0.125s;
 	-o-transition: all 0.125s;
 	-ms-transition: all 0.125s;
     transition: all 0.125s;
@@ -615,18 +615,18 @@ div#design {
     -moz-transition: all 0.125s;
     transition: all 0.125s;
 }
-.styled-input textarea ~ span { 
-    bottom: 5px; 
+.styled-input textarea ~ span {
+    bottom: 5px;
 }
-.styled-input input:focus.styled-input textarea:focus { 
-	outline: 0; 
-} 
+.styled-input input:focus.styled-input textarea:focus {
+	outline: 0;
+}
 .styled-input input:focus ~ span,.styled-input textarea:focus ~ span {
 	width: 100%;
 	-webkit-transition: all 0.075s;
-	-moz-transition: all 0.075s;  
-	transition: all 0.075s; 
-} 
+	-moz-transition: all 0.075s;
+	transition: all 0.075s;
+}
 /*-- //input-effect --*/
 .contact-form-right input[type="submit"] {
     outline: none;
@@ -676,7 +676,7 @@ footer p a:hover{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
@@ -967,10 +967,9 @@ footer p a:hover{
 		min-height: 1153px;
 	}
 	.contact-form-left {
-		padding: 2em 0em 2em 2em;
 	}
 	.contact-form-right {
-		padding: 2em 2em 2em 2em;
+
 	}
 	.modal-header h4 {
 		font-size: 1.2em;
