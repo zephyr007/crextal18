@@ -58,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header">
 				<div class="container">
 					<nav class="navbar navbar-default">
-						<!-- Brand and toggle get grouped for better mobile display -->
+						
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 								<span class="sr-only">Toggle navigation</span>
@@ -67,14 +67,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="icon-bar"></span>
 							</button>
 							<div class="agileits-logo">
-								<h1><a href="index.html"><img src="images/crextal%20logo2.png" alt="logo" /> Crextal`18</a></h1>
+								<h1><a href="index.html"><img src="images/crextal%20logo2.png" alt="logo" / style="box-sizing: border-box"> Crextal`18</a></h1>
 							</div>
-						</div>
+							
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						
+						</div>
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style="align-self:flex-end">
 							<nav>
+							
 								<ul class="nav navbar-nav">
+								
+							
 									<li class="active"><a href="index.html">Home</a></li>
 									<li><a href="#about" class="scroll">About</a></li>
 									<li><a href="#events" class="scroll">Events</a></li>
@@ -516,99 +521,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //gallery -->
 	<!-- news -->
-	<div class="news" id="news">
-		<div class="container">
-			<div class="w3l-heading">
-				<h3>Our news</h3>
-				<div class="w3ls-border"> </div>
-			</div>
-			<div class="wthree-news-grids">
-				<!-- date -->
-				<div id="design" class="date">
-					<div id="cycler">
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>03 <span>Jan 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Lorem ipsum dolor sit amet</a>
-								<p>Morbi felis sapien, pulvinar quis pharetra rutrum, auctor sit amet ipsum. Aliquam dictum massa ut porttitor ultricies. Duis non enim eros. Aliquam sed porttitor lectus.</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>08 <span>Sept 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Cras vestibulum dapibus <span class="blinking"><img src="images/new.png" alt="" /></span></a>
-								<p>Curabitur egestas porttitor erat quis cursus. Aliquam nec sapien urna. Curabitur tincidunt dolor sed metus maximus dapibus. Integer ligula enim, condimentum id commodo eget</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>17 <span>July 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Fusce id molestie mauris</a>
-								<p>Cras blandit felis augue, nec faucibus lectus hendrerit vitae. Vestibulum rutrum, magna id pellentesque fermentum, est risus scelerisque leo, at consequat nunc sem non tortor.</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>15 <span>Aug 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Aliquam vulputate arcu enim <span class="blinking"><img src="images/new.png" alt="" /></span></a>
-								<p>Aliquam sed porttitor lectus. Donec sagittis magna non eros convallis, dapibus iaculis nunc tincidunt. Pellentesque quam nisi, cursus non vestibulum ac, vehicula eu tortor.</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>24 <span>Sept 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Donec ac turpis aliquet</a>
-								<p>Curabitur facilisis fermentum gravida. Nunc suscipit nec enim ut suscipit. Mauris mollis lectus at mi vehicula rutrum vel non dolor. Nulla ut purus arcu. Pellentesque sed finibus</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="wthree-news-grid">
-							<div class="wthree-news-left">
-								<h4>24 <span>Oct 2017</span></h4>
-							</div>
-							<div class="date-text">
-								<a href="#" data-toggle="modal" data-target="#myModal"> Morbi nec justo ut ex rhoncus luctus</a>
-								<p>Nullam accumsan imperdiet elementum. Quisque volutpat sapien sed ipsum condimentum elementum. Suspendisse potenti. Maecenas fermentum justo sit amet interdum viverra.</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-					<script>
-						function blinker() {
-							$('.blinking').fadeOut(500);
-							$('.blinking').fadeIn(500);
-						}
-						setInterval(blinker, 1000);
-					</script>
-					<script>
-						function cycle($item, $cycler){
-							setTimeout(cycle, 2000, $item.next(), $cycler);
-
-							$item.slideUp(1000,function(){
-								$item.appendTo($cycler).show();
-							});
-						}
-						cycle($('#cycler div:first'),  $('#cycler'));
-					</script>
-				</div>
-				<!-- //date -->
-			</div>
-		</div>
-	</div>
+	
 	<!-- //news -->
 	<!-- modal -->
 	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
@@ -740,6 +653,5 @@ Delhi, 110042
 
 				});
 		</script>
-	<!-- //here ends scrolling icon -->
-	</body>
+     </body>
 	</html>
