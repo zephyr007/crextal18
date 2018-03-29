@@ -715,7 +715,7 @@ footer p a:hover{
 	.w3ls-text {
 		width: 35%;
 	}
-	/*am-caption {
+	/*team-caption {
 		height: 306px;
 	}
 	.team-caption h4 {
@@ -831,7 +831,7 @@ footer p a:hover{
 		min-height: 940px;
 	}
 }
-/*ia(max-width:667px){
+/*media(max-width:667px){
 	.team-caption {
 		height: 419px;
 	}
@@ -857,7 +857,7 @@ footer p a:hover{
 	}
 }
 @media(max-width:568px){
-	/*eam-caption {
+	/*team-caption {
 		height: 344px;
 	}
 	.team-caption h4 {
