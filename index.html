@@ -50,6 +50,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+
+
+ <!-- modal scripts -->
+ <script type="text/javascript">
+
+     $(document).ready(function(){
+     $('#oneb').click(function(){
+        $('.ui.modal').modal('show');    
+     });
+     });
+
+     </script>
 </head>
 <body>
 	<!-- banner -->
@@ -217,8 +232,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="agile-gallery-info">
 										<h5>Code Storm</h5>
 										<p>Online CP contest</p>
+										<button id="oneb" class="ui purple basic button">Details</button>
 									</div>
 								</div>
+
+								<!-- modal -->
+								<div class="ui modal" id="one">
+								  <i class="close icon"></i>
+								  <div class="header">
+								    Code Rush
+								  </div>
+								  <div class="image content">
+								    <div class="ui medium image">
+								      <img src="/images/avatar/large/chris.jpg">
+								    </div>
+								    <div class="description">
+								      <div class="ui header">We've auto-chosen a profile image for you.</div>
+								      <p>loerm ipsum loerm ipsum loerm ipsum loerm ipsum
+								      loerm ipsumloerm ipsumloerm ipsumloerm ipsumloerm ipsum
+								    loerm ipsumloerm ipsumloerm ipsum loerm ipsum</p>
+								      <p>Is it okay to use this photo?</p>
+								    </div>
+								  </div>
+								  <div class="actions">
+								     <div class="ui positive right labeled icon button">
+								      That's Great
+								      <i class="checkmark icon"></i>
+								    </div>
+								  </div>
+								</div>
+
+
 								<div class="col-sm-3 w3_tab_img_left">
 									<div class="demo">
 										<a class="cm-overlay" href="images/g2.jpg">
