@@ -19,6 +19,8 @@ html, body{
 body{
 	background:#FFFFFF;
 }
+
+
 .banner{
 	background: url(../images/1.png) no-repeat 0px 0px;
     background-size: cover;
